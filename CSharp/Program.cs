@@ -8,7 +8,7 @@ namespace ConsoleApplication
     {
         public static void Main(string[] args)
         {
-
+            bool test = Triangle.IsTriangle(5,7,10);
         }
     }
 }

@@ -87,10 +87,11 @@
 --reference:/Users/C/.nuget/packages/System.Threading.Timer/4.3.0/ref/netstandard1.2/System.Threading.Timer.dll
 --reference:/Users/C/.nuget/packages/System.Xml.ReaderWriter/4.3.0/ref/netstandard1.3/System.Xml.ReaderWriter.dll
 --reference:/Users/C/.nuget/packages/System.Xml.XDocument/4.3.0/ref/netstandard1.3/System.Xml.XDocument.dll
-/Users/C/Projects/InterviewPractice/CSharp/BinaryTree.cs
-/Users/C/Projects/InterviewPractice/CSharp/FindTarget.cs
-/Users/C/Projects/InterviewPractice/CSharp/PracticeList.cs
 /Users/C/Projects/InterviewPractice/CSharp/Program.cs
-/Users/C/Projects/InterviewPractice/CSharp/SortingAlgorithms.cs
-/Users/C/Projects/InterviewPractice/CSharp/StringPractice.cs
-/Users/C/Projects/InterviewPractice/CSharp/TreePractice.cs
+/Users/C/Projects/InterviewPractice/CSharp/Graphs/Graph.cs
+/Users/C/Projects/InterviewPractice/CSharp/Lists/PracticeList.cs
+/Users/C/Projects/InterviewPractice/CSharp/NumberTheory/FindTarget.cs
+/Users/C/Projects/InterviewPractice/CSharp/Sorting_Searching/SortingAlgorithms.cs
+/Users/C/Projects/InterviewPractice/CSharp/Strings_Arrays/StringPractice.cs
+/Users/C/Projects/InterviewPractice/CSharp/Trees/BinaryTree.cs
+/Users/C/Projects/InterviewPractice/CSharp/Trees/TreePractice.cs
