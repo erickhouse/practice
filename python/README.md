@@ -18,6 +18,27 @@ li = ['a','b','c'], li = list("abc")
 | `[1,2,3].insert(0,4)`| `[4,1,2,3]` | insert front
 | `[1,2,3].append(4)`| `[1,2,3,4]` | push back
 
+#### Slices
+
+Start is inclusive and end is exclusive. Start and end use zero based indexing.
+Slices return a copy
+
+```python
+[start:end:skip] 
+li = [1,2,3,4]
+```
+
+| Function       | Result | Notes|
+| ------------- |-------------|-------------| 
+| `li[0:1]`| `[1]` | 
+| `li[0:2]`| `[1,2]` | 
+| `li[:2]`| `[1,2]` | you can omit the start if you want to start from the begining
+| `li[2:]`| `[3,4]` | same thing with the end (don't forget start and end are inclusive, exclusive respectivley
+| `li[2:4]`| `[3,4]` | 
+| `li[0:4:2] or [::2]`| `[1,3]` | grab a copy of the whole array and return every 2nd index starting at 0
+| `li[-1]`| `[4]` | the last element 
+
+
 
 #### Dictionary
 
