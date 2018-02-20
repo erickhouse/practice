@@ -1,5 +1,16 @@
 ### Python CheatSheet
 
+Python iterables will return True if the are not emtpy and false if they are emtpy
+
+```python 
+li = ['a','b','c']
+
+if li: # is not emtpy
+    # do something
+elif not li: # it is empty
+    # do something else
+```
+
 #### List (Stack and Queue)
 
 ```python 
