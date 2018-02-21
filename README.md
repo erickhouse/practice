@@ -7,3 +7,5 @@
 - Interview Bit
 - Byte by Byte
 - Interview Cake
+- Pramp
+- Interviewing.io
