@@ -17,3 +17,6 @@
 - Hired
 - Indeed
 - Interview Bit
+
+### Books
+- The Algorithm Design Manual
