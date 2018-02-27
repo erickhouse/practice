@@ -30,6 +30,7 @@ li = ['a','b','c'], li = list("abc")
 | `enumerate(li)`| `[(1,'a'), (1,'b'), (3,'c')]` | 
 | `zip([1,2,3], ['a','b','c'])`| `[(1,'a'), (1,'b'), (3,'c')]` | 
 | `[3,1,2].sort()`| `[1,2,3]` | mutates original
+| `def cmp(a, b) [3,1,2].sort(cmp)`| `[1,2,3]` | define a compare func that tells it how to sort `return (1 or 0 or -1)`
 | `[1,2] + [3,2]`| `[1,2,3,2]` | 
 | `1 in [1,2,3]`| `True` | 
 | `[3,1,2].pop()`| `[1,2]` | removes back and returns the value
