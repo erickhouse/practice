@@ -11,6 +11,14 @@ elif not li: # it is empty
     # do something else
 ```
 
+Check a type
+
+```python
+i = 1
+type(i) is int # True
+isinstance(i, int) # Will test if it is that type or any subtype
+```
+
 #### List (Stack and Queue)
 
 ```python 
@@ -62,6 +70,7 @@ d = dict(a=1, b=2, c=3) or d = {'a':1, 'b':2, 'c':3 } or d = dict([(a,1), (b,2),
 | `d.keys()`| `[a,b,c]` | 
 | `d.values()`| `[1,2,3]` | 
 | `d.items()`| `[(a,1), (b,2), (c,3)]` | 
+| `d.update({'e':5, 'a':7})`| ` {'a':7, 'b':2, 'c':3, 'e:5 }` | This provides a really nice way of merging two dicts
 | `d['a']`| `1` | 
 | `d['d'] = 4`| ` {'a':1, 'b':2, 'c':3, 'd:4' }` | 
 | `d.pop('c')`| ` {'a':1, 'b':2}` | Throws exception if not found
