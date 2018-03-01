@@ -39,7 +39,7 @@
 
 ### Helpful hints from the past
 
-- While loops are more flexible, If you aren't sure default to a while loop. It may save time. Deleting your looping structure after it's been written is quite painful. 
+- While loops are more flexible, If you aren't sure, default to a while loop. It may save time. Deleting your looping structure after it's been written is quite painful. 
 - Focus on solving the problem before writing any code. Run through at least a couple of examples. It is nearly possible to mentally go back to the design phase once you have started coding. 
 
 
