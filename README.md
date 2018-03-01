@@ -25,7 +25,7 @@
 
 ## The Process
 
-### Implement all of these algorithms
+### Algorithms
 - Merge Sort
 - Insertion Sort
 - Quick Sort
