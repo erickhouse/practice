@@ -13,12 +13,14 @@
 - Top Coder
 - Coding Dojo
 - Cracking the code interview
+- Triple Byte
 
 ### Offers
 - Hired
 - Indeed
 - Interview Bit
 - LinkedIn
+- Triple Byte
 
 ### Books
 - The Algorithm Design Manual
