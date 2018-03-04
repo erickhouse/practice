@@ -39,10 +39,15 @@
 - Tree
   - Binary Tree
   - Binary Search Tree 
+  - Red Black Tree
+    - Self Balancing 
+  - B-Tree
+    - A type of binary search tree that can have more than two children 
   - Keywords : Balanced, Levels 
 - Graph
   - Directed
   - Weighted
+  - Each node may or may not have an edge to another node 
 - Queue
 - Stack
 - Array
