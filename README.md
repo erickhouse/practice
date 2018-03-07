@@ -97,4 +97,10 @@
 
 - If the problem requires filtering or a reduction step, don't try and do it in place (return a subset) 
 
+- Telling the interviewer about a problem relating to ambiguity or requirements gathering doesn't seems to matter unless it is very specific to the story. They care about technical implementations, the specific problems faced, and how I overcame then. 
+  - Possiblity of using ambiguity if the point is to show abstract problem solving or solving business problems
+  
+- Make a point to practice optimization (greedy) problems, they come up quite often. 
+  - Problems involving local candidates while scanning for the best without being able to know what the remainder of the data set includes
+
 
