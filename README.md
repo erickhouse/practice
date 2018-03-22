@@ -102,5 +102,7 @@
   
 - Make a point to practice optimization (greedy) problems, they come up quite often. 
   - Problems involving local candidates while scanning for the best without being able to know what the remainder of the data set includes
+  
+- Create a systematic way to break down problem types and their names to quickly reduce the problem space. Read books about algorithms and algorithm types. 
 
 
