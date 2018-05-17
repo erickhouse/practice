@@ -14,6 +14,7 @@
 - Coding Dojo
 - Cracking the code interview
 - Triple Byte
+- CodeFights
 
 ### Offers
 - Hired
