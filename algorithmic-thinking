@@ -1,0 +1,8 @@
+
+Solve the problem simply. Think about how you would solve the problem organically and derive an algorithm from that. 
+Don't get too focused on how the algorithm needs to work in code. 
+
+Example (insertion sort)
+
+Think about holding a hand of playing cards. How would you naturally put them in order? Find the lowest playing card and move it to the left.
+Then find the next lowest card and place it to the right of the first and so on. Maintaining the swap state in your mind is difficult.
