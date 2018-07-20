@@ -30,7 +30,20 @@ https://medium.com/@kingrayhan/500-data-structures-and-algorithms-practice-probl
 ## The Process
 
 ### Algorithms
+
+Both insertion sort and selection sort have an outer loop (over every index), and an inner loop (over a subset of indices). Each pass of the inner loop expands the sorted region by one element, at the expense of the unsorted region, until it runs out of unsorted elements.
+
+The difference is in what the inner loop does:
+
+In selection sort, the inner loop is over the unsorted elements. Each pass selects one element, and moves it to its final location (at the current end of the sorted region).
+
+In insertion sort, each pass of the inner loop iterates over the sorted elements. Sorted elements are displaced until the loop finds the correct place to insert the next unsorted element.
+
+So, in a selection sort, sorted elements are found in output order, and stay put once they are found. Conversely, in an insertion sort, the unsorted elements stay put until consumed in input order, while elements of the sorted region keep getting moved around.
+
+- Bubble Sort
 - Merge Sort
+- Selection Sort
 - Insertion Sort
 - Quick Sort
 - BFS 
