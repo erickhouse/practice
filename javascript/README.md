@@ -20,6 +20,30 @@ NaN — Not A Number
 
 They have special rules in JS and can have can unexpected results when using loose equality (==)
 
+#### Helpful Functions
+```javascript
+Math.max(5, 10) // <- 10
+Math.max(5, 10) // <- 5
+
+Math.pow(2, 2) <- 4
+
+// spread syntax: spread 'expands' an array into its elements
+
+// can be used to apply an array to a list of arguments
+var arr = [1, 2, 3];
+Math.max(...arr) // <- 3; ...arr becomes 1, 2, 3
+
+// spread can be used to concat to arrays
+var arr1 = [0, 1, 2];
+var arr2 = [3, 4, 5];
+arr1 = [...arr2, ...arr1]; // <- [3, 4, 5, 0, 1, 2]
+
+// it can be used like a slice
+var arr = [1, 2, 3];
+var arr2 = [...arr]; // like arr.slice()
+arr2.push(4);  // arr uneffected
+```
+
 #### List (Stack and Queue)
 
 ```javascript 
