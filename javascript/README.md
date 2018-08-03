@@ -60,4 +60,5 @@ list = ['a','b','c','d'] OR list = Array.from("abcd") OR Array(7) 'an array of l
 | `list.push('e')` | `['a','b','c','d','e']` | pushes to the back (stack, queue)
 | `list.pop()` | `['a','b','c']` | removes the last element and returns it (stack), undefined if empty
 | `list.shift()` | `['b','c','d']` | removes the first element and returns it (queue)
+| `list.splice(0, 1, 'e')` | `['e','b','c','d']` | (startIndex, number of elements to remove, elements to insert)
 
