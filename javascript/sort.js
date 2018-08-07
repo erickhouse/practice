@@ -36,3 +36,21 @@ function insertionSort(arr) {
     }
     return arr;
 }
+
+/**
+ * @param {number[]} arr 
+ * @description typically insertion sort is better than bubble sort but they both have the same worst case runtime of O(n^2). 
+ * There might be a case if the array is almost sorted. The largest number will bubble to the end of the array after each iteration and
+ * we know the array is sorted until that point.
+ */
+function bubbleSort(arr) {
+    let n = arr.length;
+    for(let i = n-1; i > 0; i--) {
+        for(let j = 0; j < i; j++) {
+            if(arr[j] > arr[j+1]){
+                [arr[j], arr[j+1]] = [arr[j+1], arr[j]];
+            }
+        }
+    }
+    return arr;
+}
