@@ -27,6 +27,10 @@ Math.max(5, 10) // <- 5
 
 Math.pow(2, 2) <- 4
 
+// integer division (new function in ES6)
+var div = Math.trunc(y/x);
+var rem = y % x;
+
 // spread syntax: spread 'expands' an array into its elements
 
 // can be used to apply an array to a list of arguments
