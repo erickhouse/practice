@@ -52,7 +52,7 @@ list = ['a','b','c','d'] OR list = Array.from("abcd") OR Array(7) 'an array of l
 
 | Function       | Result | Notes|
 | ------------- |-------------|-------------| 
-| `[1].concat([2])` | `[1, 2]` | 
+| `[1].concat([2])` | `[1, 2]` | This returns a new array. Does not modify the old!
 | `list.includes('a')` | `true` | 
 | `list.length` | `4` | 
 | `list.some(elem => elem === 'a')` | `true` | the same thing as any or at least one
