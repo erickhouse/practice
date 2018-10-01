@@ -75,6 +75,6 @@ var set = new Set(['a','b','c','d']);
 | `set.has('a')` | `true` | 
 | `set.clear()` | `[]` | 
 | `set.size` | `4` | 
-| `set.entries()` | `[['a', 'a'], ['b', 'b'] // and so on]` | interesting becuase it returns a list of values in insertion order. Might be useful
+| `set.values()` | `['a','b','c','d']` | interesting becuase it returns a list of values in insertion order. Might be useful
 
 
