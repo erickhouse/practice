@@ -33,7 +33,7 @@ Math.pow(2, 2) <- 4
 var arr = [1, 2, 3];
 Math.max(...arr) // <- 3; ...arr becomes 1, 2, 3
 
-// spread can be used to concat to arrays
+// spread can be used to concat two arrays
 var arr1 = [0, 1, 2];
 var arr2 = [3, 4, 5];
 arr1 = [...arr2, ...arr1]; // <- [3, 4, 5, 0, 1, 2]
@@ -61,4 +61,19 @@ list = ['a','b','c','d'] OR list = Array.from("abcd") OR Array(7) 'an array of l
 | `list.pop()` | `['a','b','c']` | removes the last element and returns it (stack), undefined if empty
 | `list.shift()` | `['b','c','d']` | removes the first element and returns it (queue)
 | `list.splice(0, 1, 'e')` | `['e','b','c','d']` | (startIndex, number of elements to remove, elements to insert)
+
+#### Set
+
+```javascript 
+var set = new Set(['a','b','c','d']);
+```
+
+| Function       | Result | Notes|
+| ------------- |-------------|-------------| 
+| `set.add('e')` | `['a','b','c','d','e']` | 
+| `set.delete('e')` | `['a','b','c','d']` | 
+| `set.has('a')` | `true` | 
+| `set.clear()` | `[]` | 
+| `set.entries()` | `[['a', 'a'], ['b', 'b'] // and so on]` | interesting becuase it returns a list of values in insertion order. Might be useful
+
 
