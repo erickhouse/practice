@@ -13,3 +13,4 @@
 - Right down and understand each item in a contract between large logical components
 - Try to find the author of the code
 - Write tests to confirm assumptions at the component level
+- State the goal of each function and how that goal relates to the outputs
