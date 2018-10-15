@@ -18,6 +18,8 @@ https://app.codility.com/programmers/lessons/1-iterations/
 - Cracking the code interview
 - Triple Byte
 - CodeFights
+- RefDash
+- Vettery
 
 ### Offers
 - Hired
