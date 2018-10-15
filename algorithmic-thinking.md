@@ -12,6 +12,8 @@ Then find the next lowest card and place it to the right of the first and so on.
 - If you can't find a solution, try assuming that you have a solution and seeing what you can derive from that ("working backward").
   - Sometimes you can build a concrete solution from a simple case but the problem is abstract. Try finding a pattern in the solution. 
 
+#### General tips
+
 - Always start by solving a small instance of the problem by hand. In this problem the recurrence relation and the repetition of function calls become much more obvious when you hand-solve a problem.
 - Pay attention to when your solution is computing things you don’t need, like how the naive counting solution generates the sequences but doesn’t actually use them. Reducing unnecessary computation can often provide simpler solutions, if not open the door to more efficient ones.
 - Know your recursion. It’s almost useless in most production code because it blasts through the stack, but it’s a very powerful algorithm design tactic. Recursive solutions can often be adapted and improved: the difference between the exponential time naive solution and the linear time nearly-optimal memoization solution is minimal.
