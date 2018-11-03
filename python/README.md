@@ -105,5 +105,14 @@ mat = [
 
 #### Strings
 
+``` python 
+
+txt = "hello, my name is Peter, I am 26 years old"
+x = txt.split(", ")
+
+"".join(x) # will merge back into a single string
+
+``
+
 #### Utils
 
