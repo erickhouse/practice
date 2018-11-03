@@ -23,7 +23,11 @@ isinstance(i, int) # Will test if it is that type or any subtype
 
 ```python 
 li = ['a','b','c'], li = list("abc")
+
+# check list equality
+[1,2,3] == [1,2,3] # -> True
 ```
+
 
 | Function       | Result | Notes|
 | ------------- |-------------|-------------| 
