@@ -7,6 +7,14 @@ Example (insertion sort)
 Think about holding a hand of playing cards. How would you naturally put them in order? Find the lowest playing card and move it to the left.
 Then find the next lowest card and place it to the right of the first and so on. Maintaining the swap state in your mind is difficult.
 
+#### Flow chart
+
+- Can the problem be broken down into a flow chart? works well with recursive problems. 
+
+#### BCR
+
+- At the start of a problem think about what the best conceivable runtime is. Generally you can guess off the top of your head. That's what you are optimizing for. 
+
 #### Hueristics
 
 - If you can't find a solution, try assuming that you have a solution and seeing what you can derive from that ("working backward").
