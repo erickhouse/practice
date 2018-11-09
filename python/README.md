@@ -120,7 +120,7 @@ x = txt.split(", ")
 
 "".join(x) # will merge back into a single string
 
-``
+```
 
 #### Closures
 
