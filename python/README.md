@@ -26,6 +26,10 @@ li = ['a','b','c'], li = list("abc")
 
 # check list equality
 [1,2,3] == [1,2,3] # -> True
+
+# pre alloc a buffer with some default value
+[-1] * 3 # -> [-1, -1, -1]
+[1,2] * 2 # -> [1, 2, 1, 2] scalar repeats the pattern n times
 ```
 
 
