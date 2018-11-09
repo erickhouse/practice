@@ -122,5 +122,18 @@ x = txt.split(", ")
 
 ``
 
+#### Closures
+
+``` python
+def parent():
+    a = 1
+    b = []
+    def child():
+        nonlocal a # must redeclare pointers as nonlocal when using them within a closure if trying to modify
+        # a is Ok if using at as a read only variable
+        a += 1 # parent a is now 2
+        b.append(a) # OK to modify parent since we aren't chaning the value of b
+```
+
 #### Utils
 
