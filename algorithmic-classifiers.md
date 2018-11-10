@@ -30,13 +30,31 @@ https://medium.com/@codingfreak/top-50-dynamic-programming-practice-problems-420
 "So you didn't need to recount because you remembered there were eight!
 Dynamic Programming is just a fancy way to say 'remembering stuff to save time later'"
 
-- Recursive
+#### Overlapping subproblems
 
-- Branch and Bound
+Given some branching decisions in each state of the loop draw a tree of results. It is possible to see where the inputs from two paths overlap. Useful for recursive or dynamic problems. 
 
-- Backtracking
+``` python
 
-- Brute Force
+for state in algorithm:
+
+  if decision 1:
+    path1(state)
+    
+  if decision 2:
+    path2(state)
+
+```
+
+In this example it is possible to see where `state` inputs overlap over the algorithm. We can make the decision not to reclaculate a sub state that we have already calculated. 
+
+#### Recursive
+
+#### Branch and Bound
+
+#### Backtracking
+
+#### Brute Force
   - Look at all possbile combinations
 
-- Random
+#### Random
