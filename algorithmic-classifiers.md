@@ -54,7 +54,27 @@ In this example it is possible to see where `state` inputs overlap over the algo
 
 #### Backtracking
 
+Backtracking is a technique used to build up to a solution to a problem incrementally. These "partial solutions" can be phrased in terms of a sequence of decisions. Once it is determined that a "partial solution" is not viable (i.e. no subsequent decision can convert it into a solution) then the backtracking algorithm retraces its step to the last viable "partial solution" and tries again.
+
+Visualizing the decisions as a tree, backtracking has many of the same properties of depth-first search. The difference is that depth-first search will guarantee that it visits every node until it finds a solution, whereas backtracking doesn't visit branches that are not viable.
+
+Because backtracking breaks problems into smaller subproblems, it is often combined with dynamic programming, or a divide-and-conquer approach.
+
 #### Brute Force
   - Look at all possbile combinations
 
 #### Random
+
+#### Top-down vs bottm up
+
+When dealing with a naturally recursive problem we can pick to accumulate results as we go down the stack with a loop or bubble back up with recursion. 
+
+Top-down means to me: go down to the base case from the start of the call stack
+Bottom-up means to me: hit the base case and go up the call stack. 
+
+I do not visualize a stack going up when it comes to nested calls. 
+
+an actual stack object makes sense to go "up" and then come back down. Maybe it might be better to reverse my thinking so it is in line with a real stack. 
+
+I should define what unravel means and how to draw it. 
+
