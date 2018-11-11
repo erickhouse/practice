@@ -27,3 +27,43 @@ def is_single_riffle(half1, half2, shuffled_deck):
     
     return False
 ```
+
+## Dynamic Programming and recursion
+
+### Find 2nd Largest in BST 
+
+I was pretty quickly able to find out the solution but the coding took me longer than it should. It probably took me too long to write the max function. It turns out that I didn't really need to max function. It also doesn't handle the worst case of a descending linked list (all nodes on the lhs). I would end up doing an O(n) operation. 
+
+``` python
+def find_second_largest(root_node):
+
+    def getMax(node):
+        
+        if not node.left and not node.right:
+            return node.value
+           
+        if node.left and not node.right:
+            return max(getMax(node.left), node.value)
+            
+        if node.right and not node.left:
+            return max(getMax(node.right), node.value)
+            
+        return max(getMax(node.left), getMax(node.right), node.value)
+            
+    def find(node, parent):
+        
+        if not node.right:
+            
+            # find max of left
+            if node.left and parent:
+                return max(getMax(node.left), parent)
+            if parent:
+                return parent
+            if node:
+                return node.value
+            return None
+
+        return find(node.right, node.value)
+
+    return find(root_node, None)
+```
