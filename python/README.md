@@ -19,6 +19,14 @@ type(i) is int # True
 isinstance(i, int) # Will test if it is that type or any subtype
 ```
 
+Define Infinity
+
+```python
+float('inf') # -> inf
+-float('inf') # -> -inf
+
+```
+
 #### List (Stack and Queue)
 
 ```python 
