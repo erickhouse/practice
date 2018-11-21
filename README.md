@@ -5,6 +5,11 @@ https://medium.com/@kingrayhan/500-data-structures-and-algorithms-practice-probl
 
 https://app.codility.com/programmers/lessons/1-iterations/
 
+### Tools 
+
+- CV compiler that used ML to create the best resume
+https://cvcompiler.com/
+
 ### Practice
 - Hacker Rank
 - Leet Code
