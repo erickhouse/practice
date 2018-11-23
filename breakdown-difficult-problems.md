@@ -14,3 +14,8 @@
 - Try to find the author of the code
 - Write tests to confirm assumptions at the component level
 - State the goal of each function and how that goal relates to the outputs
+
+When making assumptions break down each question into
+- What I know
+- What I think I know 
+- What I don't know
