@@ -5,6 +5,9 @@ https://medium.com/@kingrayhan/500-data-structures-and-algorithms-practice-probl
 
 https://app.codility.com/programmers/lessons/1-iterations/
 
+- Interesting book about algorithms.
+http://jeffe.cs.illinois.edu/teaching/algorithms/#book
+
 ### Tools 
 
 - CV compiler that used ML to create the best resume
